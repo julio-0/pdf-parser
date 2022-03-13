@@ -1,0 +1,29 @@
+{
+  "name": "pdf-parser-nodejs",
+  "version": "1.0.0",
+  "description": "An illustrative example for https://fourzerofour.pw/pdf-parser-nodejs/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/fourzerofour/pdf-parser-nodejs.git"
+  },
+  "keywords": [
+    "pdf",
+    "stream",
+    "parse",
+    "architect"
+  ],
+  "author": "Tom (Four Zero Four)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/fourzerofour/pdf-parser-nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/fourzerofour/pdf-parser-nodejs#readme",
+  "dependencies": {
+    "pdfreader": "^1.2.14"
+  },
+  "devDependencies": {}
+}
