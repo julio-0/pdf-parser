@@ -72,7 +72,8 @@ module.exports = async function parse (buf, reader) {
 
   const data = await readPDFPages(buf, reader);
   //console.log({'beforeParse': data});
-  //const parsedData = parseToddPDF(data);
-  return data;
+  const parsedData = parseToddPDF(data);  
+  //return data;
+  return parsedData;
 
 };
